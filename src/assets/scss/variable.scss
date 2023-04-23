@@ -1,0 +1,9 @@
+//全局样式变量或函数，需在vite.config.ts中引入
+
+$red: red;
+
+@mixin line-text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

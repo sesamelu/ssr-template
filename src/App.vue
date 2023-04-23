@@ -13,6 +13,10 @@
 
 <template>
   <div>
+    <div class="box">
+      <p>文字文案</p>
+      <div class="desc">发动机啊哈富家大室对接客户司法鉴定电视剧发货的设计费</div>
+    </div>
     <el-button type="primary" @click="open">Primary</el-button>
     <button @click="()=>router.push({path:'/home'})">首页</button>
     <button @click="()=>router.push({path:'/mine'})">个人中心</button>
@@ -20,6 +24,9 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.box{
+  p{color:red}
+}
 
 </style>

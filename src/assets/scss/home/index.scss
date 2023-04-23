@@ -1,0 +1,8 @@
+.red {
+    color: $red
+}
+
+.desc {
+    @include line-text-overflow;
+    width: 100px;
+}

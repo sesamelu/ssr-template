@@ -4,11 +4,12 @@
 </script>
 
 <template>
-  <div>
+  <div class="red">
     home
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "@/assets/scss/home/index.scss";
 
 </style>
